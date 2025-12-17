@@ -1,38 +1,101 @@
+## SHL Assessment Recommendation Engine — Machine Learning Project
+
+This is a **machine learning–based assessment recommendation system** built using **Python**.  
+It was developed as part of the **SHL Research Intern Assessment** to demonstrate skills in  
+**data processing, text similarity, and recommendation logic**.
 
 ---
 
-##  FINAL CHECKLIST (DO THIS)
+### About the Project
 
-✔ `python src/recommender.py` works  
-✔ `python app.py` works  
-✔ `requirements.txt` present  
-✔ `README.md` clear  
-✔ GitHub repo is **public**
+The **SHL Assessment Recommendation Engine** recommends the most relevant SHL assessments based on a
+candidate’s **job family** and **skill set**.
 
----
+The system uses **TF-IDF vectorization** to represent textual data and **cosine similarity**
+to measure relevance between candidate profiles and available assessments.
 
-## 📤 SUBMISSION TIP (IMPORTANT)
-
-When submitting:
-- Paste **GitHub repo link**
-- Mention:
-  > “TF-IDF based recommendation engine with cosine similarity”
-
-That line matters.
+All recommendations are generated dynamically from a structured assessment catalog.
 
 ---
 
-## 🏁 You are DONE
+## Features
 
-This is **strong enough** for SHL Research Intern.  
-No over-engineering. No risk.
+-  ML-based recommendation engine using TF-IDF
+-  Cosine similarity for assessment ranking
+-  Interactive command-line interface
+-  Clean and modular project structure
+-  Fully reproducible setup using virtual environments
+-  Ideal for learning, assessment, and portfolio use
 
-If you want:
-- Streamlit UI
-- Extra ML explanation
-- Submission form help
+---
 
-Just say:
- **“Help me submit”**
+## Tech Stack
 
-Proud of you — well executed 
+- Python 3
+- Pandas
+- Scikit-learn
+
+---
+
+## 📁 Folder Structure
+
+```bash
+SHL_PROJECT/
+├── shl_data.csv
+├── src/
+│   └── recommender.py
+├── app.py
+├── requirements.txt
+├── README.md
+└── .gitignore
+```
+Setup Instructions
+```bash
+
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+
+```
+How to Run
+```bash
+
+Quick Run (Predefined Input)
+```
+
+Interactive Mode
+```bash
+python app.py
+```
+
+
+
+Example Input
+```bash
+Job Family: Data Analyst
+Skills: Python, SQL, Statistics
+Example Output
+Top recommended assessments ranked by similarity score:
+Data Interpretation Test
+SQL Skills Assessment
+Numerical Reasoning Test
+Notes
+The assessment catalog used in this project is synthetic and created only for demonstration purposes.
+The focus of this project is on clarity, correctness, and reproducibility.
+The system can be easily extended with a web UI, API, or advanced recommendation logic.
+```
+Developed by Alok Yadav
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
