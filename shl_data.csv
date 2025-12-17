@@ -1,0 +1,11 @@
+assessment_id,assessment_name,job_family,skills,difficulty,duration_minutes
+A1,Numerical Reasoning Test,Data Analyst,"math,statistics,analysis",Medium,30
+A2,Logical Reasoning Test,General,"logic,problem solving,analysis",Medium,25
+A3,Verbal Reasoning Test,General,"english,comprehension,grammar",Easy,20
+A4,Data Interpretation Test,Data Analyst,"data analysis,charts,statistics",Hard,40
+A5,Programming Fundamentals,Software Engineer,"python,programming,logic",Medium,45
+A6,Advanced Coding Test,Software Engineer,"python,algorithms,data structures",Hard,60
+A7,Situational Judgment Test,All Roles,"decision making,behavioral",Easy,30
+A8,SQL Skills Assessment,Data Analyst,"sql,database,querying",Medium,35
+A9,Machine Learning Basics,AI Intern,"machine learning,python,statistics",Medium,45
+A10,Cognitive Ability Test,General,"reasoning,logic,analysis",Medium,30
