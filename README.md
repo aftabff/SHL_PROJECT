@@ -84,7 +84,7 @@ The assessment catalog used in this project is synthetic and created only for de
 The focus of this project is on clarity, correctness, and reproducibility.
 The system can be easily extended with a web UI, API, or advanced recommendation logic.
 ```
-Developed by Alok Yadav
+Developed by Alok Yadav & Aftab Alam
 
 ---
 
