@@ -29,7 +29,7 @@ All recommendations are generated dynamically from a structured assessment catal
 
 ---
 
-## Tech Stack
+## Tech Stacks
 
 - Python 3
 - Pandas
